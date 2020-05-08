@@ -1,0 +1,467 @@
+*body{
+    margin: 0;
+    padding: 0;
+    
+
+}
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+.main{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     background-color: royalblue;
+     align-items: center;
+ }
+ .head-button{
+   
+    text-align: center;
+   
+
+}
+.head-button a{
+    text-decoration: none;
+    color: #427900;
+    
+    background-color: #f5f5f5 ;   
+
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+ .main1{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     background-color: white;
+     align-items: center;
+
+ } .two1{
+     color: white;
+     margin: 20px 0px 20px 0px;
+ }
+ .bar{
+     justify-content: space-between;
+ }
+
+ .bar ul{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     list-style: none;
+     cursor: pointer;
+     border: 1px;
+     
+     
+ }
+ .bar  ul ul {
+     display: none;
+
+     
+ }
+ .bar ul :hover > ul
+ {
+     display: block;
+     visibility: visible;
+     
+ }
+ /* .bar ul ul ul {
+     margin-left: 300;
+     top: 0px;
+
+ } */
+.info
+{
+    justify-content: space-around;
+    background-color: royalblue;
+    color: white;
+    margin: 5px;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+.info1{
+    flex-wrap: wrap;
+}
+
+.imgh
+{
+    text-align: center;
+    
+}
+.para,.heading{
+    text-align: center;
+    width: 850px; 
+     margin-top: 30px;
+    
+}
+.num{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 2000px;
+    height: 200px;
+    flex-wrap: wrap;
+    background-color: royalblue;
+    align-items: center;
+    margin-top: 70px;   
+}
+.boxes{
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.container{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ text-align: center;
+ margin-top: 60px;
+ 
+ 
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 120px;
+    
+}
+.online,.online2,.online3,.online4,.online5,.online6{
+    box-shadow: 1px 1px 3px 3px;
+ background-color: transparent;
+  padding: 30px 90px 30px 90px;
+}
+.main2{
+   
+    /* background-color: royalblue; */
+    align-items: center;
+    margin-top: 40px;   
+}
+.mission{
+    margin-top: 70px;
+    margin-left: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.upcoming{
+    margin-left:150px;
+    margin-top: 50px;
+    
+
+}
+.imgg{
+    text-align: center;
+   margin-top: 100px;
+   margin-bottom: 50px;
+    color: royalblue;
+    flex-wrap: wrap;
+}
+.hep,.hep1,.hep2,.hep3{
+    box-shadow: 1px 1px 1px 1px;
+    padding: 5px 150px 5px 5px;
+}
+.wheight{
+    border: white solid 1px;
+    width: 300px;
+    height: 150px;
+}
+.lstinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(30,35,29);
+    color: white;
+    margin: 150px 0px 0px 0px;
+    width: 1400px;
+
+
+}
+.info2{
+    flex-wrap: wrap;
+}
+.num{
+    text-align: center;
+    color: white;
+    height: 300px;
+}
+.copyr8{
+    background-color: royalblue;
+    height: 40px;
+    color: white;
+        
+
+}
+.copy{
+    margin-left: 50px;
+}
+.imgwih{
+    margin-top: 50px;
+}
+
+
+
+
+.house1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: royalblue; */
+    align-items: center;
+    margin-top: 40px;   
+}
+
+
+
+.dropbtn {
+    
+    color: black;
+ 
+    font-size: 16px;
+    border: none;
+    background-color: white;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 1px solid white;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #235cac;border-radius: 2px;border-radius: 12px; text-align: center; cursor: pointer;}
+
+ 
+  
+
+  .home{
+     
+      text-align: center;
+      text-decoration: none;
+      background-color: #235cac;
+      border: 1px solid #235cac;
+      border-radius: 12px;
+      border-width: 10px;
+      color: white;
+  }
+
+
+ 
+    
+    .wrapper{
+       
+        flex-wrap: wrap;
+        
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+    }
+    
+    .wrapper h2{
+        color: yellowgreen;
+    }
+    
+    .combination{
+       
+        display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: royalblue;
+    align-items: center;
+    }
+    
+    .combination img{
+        width: 30px;
+        height: 40px;
+    }
+    
+    .fooddiv,.familydiv,.medicaldiv,.educationdiv{
+        width: 300px;
+    
+        height: 200px;
+        text-align: center;
+    }
+    
+    .combination h1,h4{
+        color: white;
+    }
+
+
+     .whatwe{
+         text-align: center;
+          margin-left: 500px;
+          flex-wrap: wrap;    
+        }
+        .whatme1{
+            text-align: center;
+            margin-left: 550px;
+            flex-wrap: wrap;
+        }
+
+
+    .wwad{
+   flex-wrap: wrap;
+
+        background-color: white;
+        text-align: center;
+        
+    }
+    .wrapper2{
+        width: 1000px;
+        margin: 0 auto;
+      
+
+       display: flex;
+        
+        justify-content: space-between;
+    flex-wrap: wrap;
+   
+    }
+    .wrapper2 h2{
+    color: yellowgreen;
+    }
+    .wwads{
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .sadqah,.welfare,.medical1,.dastarkhwan,.roplant,.education1{
+       
+     
+    width: 310px;
+        box-shadow: 1px 1px 1px 1px;
+    
+     
+    }
+    .wrapper2 h3{
+        color: #235cac
+        
+    }
+
+
+
+    .wwadheading1,.wwadheading2{
+        display: block;
+    }
+
+
+
+
+
+    .end{
+        width: 100%;
+        
+        background-color: black;
+        
+    }
+   
+    
+    .wrapper3{
+    
+       
+       
+       
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    }
+    
+    .endone{
+        color: white;
+        margin-top: 40px;
+        border: 1px solid black;
+        width: 40%;
+    }
+    
+    .ending img{
+        width: 30px;
+        height: 20px;
+    }
+    
+    .endtwo{
+        
+        color: white;
+        width: 30%;
+        margin: 10px auto 60px 10px;
+    }
+    
+    .endthree{
+      
+        width: 20%;
+        margin: 20px auto 100px 5px;
+    }
+    
+    .endthree img{
+        width: 30px;
+        height: 25px;
+    }
+    
+    
+    .endthree ul li{
+        list-style: none;
+        display: inline;
+    }
+    
+
+
+
+
+
+    .dw{
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+        
+    }
+    .hepatitis,.housing,.it,.tharparkar{
+        width: 320px;
+        height: 80px;
+        
+        box-shadow: 1px 1px 1px 1px grey;
+        
+    }
+    .hepatitis,.housing,.it,.tharparkar, img h3{
+    color: #235cac;
+        
+    }
+    
+   
+
+    .sideone h1{
+        color: #235cac;
+      
+    }
